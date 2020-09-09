@@ -1,0 +1,166 @@
+/* HTML element */
+body {
+  font-family: "Montserrat", "sans-serif";
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* ID's Styling */
+#title {
+  background-color: #ff4c68;
+}
+
+#title h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title h1.primary-title {
+  color: #fff;
+}
+
+#features {
+  text-align: center;
+  padding: 3% 0;
+  background: #fff;
+  position: relative;
+}
+
+#features h3 {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  padding: 5% 1%;
+  color: #fff;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3 {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Classes Styling  */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu"
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.features-icons {
+  margin: 1rem;
+}
+
+.features-icons i {
+  color: #ef8172;
+}
+
+.features-icons i:hover {
+  color: #ff4c68;
+}
+
+/* Download button */
+.donload-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Testimonial Image */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding-bottom: 1%;
+}
+
+.footer-icons i {
+  padding: 5px;
+}
+
+/* .custom-container-fluid {
+  padding: 7% 15% !important;
+} */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
