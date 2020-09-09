@@ -1,0 +1,15 @@
+{
+  "name": "fruitsproject",
+  "version": "1.0.0",
+  "description": "To learn basics of Mongo drivers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serlin Tamilselvam",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.2"
+  }
+}
